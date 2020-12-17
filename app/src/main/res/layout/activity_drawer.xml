@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/drawer"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="start"
+    android:orientation="vertical"
+    android:background="#F5A25D">
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00000000"
+        android:text="닫기"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="안드로이드"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="혼밥 level 1."
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="30dp">
+
+        <Button
+            android:id="@+id/nav_random"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메뉴 추천"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="#00000000"/>
+        <Button
+            android:id="@+id/nav_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="좋아하는 메뉴 리스트"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="#00000000"/>
+        <Button
+            android:id="@+id/nav_hate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="싫어하는 메뉴 리스트"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="#00000000"/>
+        <Button
+            android:id="@+id/nav_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="메뉴 리스트"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="#00000000"/>
+        <Button
+            android:id="@+id/nav_question"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="개발자에게 문의"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="#00000000"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="sign in ->"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:background="#00000000"
+            android:layout_margin="30dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

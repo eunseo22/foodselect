@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_meal"
+            android:layout_width="230dp"
+            android:layout_height="120dp"
+            android:background="#FFFFFF"
+            android:text="밥집"
+            android:textSize="40sp"
+            android:textColor="#000"/>
+        <Button
+            android:id="@+id/btn_drink"
+            android:layout_width="230dp"
+            android:layout_height="120dp"
+            android:background="#FFFFFF"
+            android:text="술집"
+            android:textSize="40sp"
+            android:textColor="#000"
+            android:layout_marginTop="30dp"/>
+        <Button
+            android:id="@+id/btn_md"
+            android:layout_width="230dp"
+            android:layout_height="120dp"
+            android:background="#FFFFFF"
+            android:text="상관없음"
+            android:textSize="40sp"
+            android:textColor="#000"
+            android:layout_marginTop="30dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

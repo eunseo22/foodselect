@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="중복 선택 가능"
+            android:textSize="25sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:background="#FFFFFF"
+            android:text="밥"
+            android:textSize="28sp"
+            android:textColor="#000"/>
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:background="#FFFFFF"
+            android:text="면"
+            android:textSize="28sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:background="#FFFFFF"
+            android:text="분식"
+            android:textSize="28sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:background="#FFFFFF"
+            android:text="고기"
+            android:textSize="28sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:background="#FFFFFF"
+            android:text="해산물"
+            android:textSize="28sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:background="#FFFFFF"
+            android:text="국물"
+            android:textSize="28sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"/>
+        <Button
+            android:layout_width="230dp"
+            android:layout_height="55dp"
+            android:background="#FFFFFF"
+            android:text="패스트푸드"
+            android:textSize="28sp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"/>
+
+        <LinearLayout
+            android:layout_width="230dp"
+            android:layout_height="40dp"
+            android:gravity="right">
+
+            <Button
+                android:id="@+id/btn_next_random2"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:text=">>next"
+                android:textSize="20sp"
+                android:background="#00000000"
+                android:textColor="#000"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</FrameLayout>

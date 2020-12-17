@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/frame_random_start"
+    android:background="#F5F5F8">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btn_single"
+            android:layout_width="230dp"
+            android:layout_height="120dp"
+            android:background="#FFFFFF"
+            android:text="1인"
+            android:textSize="40sp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/btn_group"
+            android:layout_width="230dp"
+            android:layout_height="120dp"
+            android:background="#FFFFFF"
+            android:text="2~3인"
+            android:textSize="40sp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:textColor="#000000"/>
+        <Button
+            android:id="@+id/btn_more"
+            android:layout_width="230dp"
+            android:layout_height="120dp"
+            android:background="#FFFFFF"
+            android:text="다수"
+            android:textSize="40sp"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+
+</FrameLayout>
