@@ -29,6 +29,7 @@ public class Fragment_Home extends Fragment implements View.OnClickListener{
     Fragment_Map fragment_map;
     Fragment_QR_1 fragment_qr_1;
     Fragment_QR_2_Make fragment_qr_2_make;
+    Fragment_QR_2_Find fragment_qr_2_find;
 
     @Override
     public void onCreate(Bundle savedInstanceState){
@@ -45,6 +46,7 @@ public class Fragment_Home extends Fragment implements View.OnClickListener{
         fragment_map = new Fragment_Map();
         fragment_qr_1 = new Fragment_QR_1();
         fragment_qr_2_make = new Fragment_QR_2_Make();
+        fragment_qr_2_find = new Fragment_QR_2_Find();
 
         firstFragment = new Fragment_RandomStart();
         setDefaultFragment();
@@ -116,5 +118,7 @@ public class Fragment_Home extends Fragment implements View.OnClickListener{
             getChildFragmentManager().beginTransaction().replace(R.id.frame_home, fragment_qr_1).commit();
         else if(index == 10)
             getChildFragmentManager().beginTransaction().replace(R.id.frame_home, fragment_qr_2_make).commit();
+        else if(index == 11)
+            getChildFragmentManager().beginTransaction().replace(R.id.frame_home, fragment_qr_2_find).commit();
     }
 }
