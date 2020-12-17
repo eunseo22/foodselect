@@ -11,19 +11,19 @@
         android:gravity="center">
 
         <Button
-            android:id="@+id/btn_qr_1"
+            android:id="@+id/btn_qr_2_make"
             android:layout_width="230dp"
             android:layout_height="120dp"
             android:background="#FFFFFF"
-            android:text="QR코드로\n다함께"
+            android:text="방 만들기"
             android:textSize="33sp"
             android:textColor="#000000"/>
         <Button
-            android:id="@+id/btn_select"
+            android:id="@+id/btn_qr_2_find"
             android:layout_width="230dp"
             android:layout_height="120dp"
             android:background="#FFFFFF"
-            android:text="선택지로\n혼자서"
+            android:text="방 찾기"
             android:textSize="33sp"
             android:layout_marginTop="30dp"
             android:textColor="#000000"/>

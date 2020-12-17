@@ -27,6 +27,8 @@ public class Fragment_Home extends Fragment implements View.OnClickListener{
     Fragment_SingleLevel fragment_singleLevel;
     Fragment_Recommend fragment_recommend;
     Fragment_Map fragment_map;
+    Fragment_QR_1 fragment_qr_1;
+    Fragment_QR_2_Make fragment_qr_2_make;
 
     @Override
     public void onCreate(Bundle savedInstanceState){
@@ -41,6 +43,8 @@ public class Fragment_Home extends Fragment implements View.OnClickListener{
         fragment_singleLevel = new Fragment_SingleLevel();
         fragment_recommend = new Fragment_Recommend();
         fragment_map = new Fragment_Map();
+        fragment_qr_1 = new Fragment_QR_1();
+        fragment_qr_2_make = new Fragment_QR_2_Make();
 
         firstFragment = new Fragment_RandomStart();
         setDefaultFragment();
@@ -70,7 +74,7 @@ public class Fragment_Home extends Fragment implements View.OnClickListener{
         Fragment fg;
         switch (view.getId()){
             case R.id.btn_random:
-                fg = Fragment_Random_1.newInstance();
+                fg = Fragment_RandomStart.newInstance();
                 setChildFragment(fg);
                 break;
             case R.id.btn_list:
@@ -108,5 +112,9 @@ public class Fragment_Home extends Fragment implements View.OnClickListener{
             getChildFragmentManager().beginTransaction().replace(R.id.frame_home, fragment_recommend).commit();
         else if(index == 8)
             getChildFragmentManager().beginTransaction().replace(R.id.frame_home, fragment_map).commit();
+        else if(index == 9)
+            getChildFragmentManager().beginTransaction().replace(R.id.frame_home, fragment_qr_1).commit();
+        else if(index == 10)
+            getChildFragmentManager().beginTransaction().replace(R.id.frame_home, fragment_qr_2_make).commit();
     }
 }

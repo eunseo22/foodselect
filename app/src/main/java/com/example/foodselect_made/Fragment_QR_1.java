@@ -9,10 +9,10 @@ import android.widget.Button;
 
 import androidx.fragment.app.Fragment;
 
-public class Fragment_RandomMore_1 extends Fragment {
+public class Fragment_QR_1 extends Fragment {
 
-    public static Fragment_RandomMore_1 newInstance(){
-        return new Fragment_RandomMore_1();
+    public static Fragment_QR_1 newInstance(){
+        return new Fragment_QR_1();
     }
     Fragment_Home fragment_home;
 
@@ -35,20 +35,20 @@ public class Fragment_RandomMore_1 extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState){
-        View fv = inflater.inflate(R.layout.fragment_randommore_1, container, false);
+        View fv = inflater.inflate(R.layout.fragment_qr_1, container, false);
 
-        Button btn_qr_1 = fv.findViewById(R.id.btn_qr_1);
-        btn_qr_1.setOnClickListener(new View.OnClickListener() {
+        Button btn_qr_2_make = fv.findViewById(R.id.btn_qr_2_make);
+        btn_qr_2_make.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                fragment_home.onFragmentChange(9);
+                fragment_home.onFragmentChange(10);
             }
         });
-        Button btn_select = fv.findViewById(R.id.btn_select);
-        btn_select.setOnClickListener(new View.OnClickListener() {
+        Button btn_qr_2_find = fv.findViewById(R.id.btn_qr_2_find);
+        btn_qr_2_find.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                fragment_home.onFragmentChange(3);
+                fragment_home.onFragmentChange(11);
             }
         });
         return fv;
