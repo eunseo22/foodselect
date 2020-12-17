@@ -81,8 +81,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                Fragment_Like fragment_like = new Fragment_Like();
-                transaction.replace(R.id.frame, fragment_like);
+                Fragment_MyPage fragment_mypage = new Fragment_MyPage();
+                transaction.replace(R.id.frame, fragment_mypage);
                 transaction.commit();
             }
         });
@@ -91,8 +91,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
-                Fragment_Hate fragment_hate = new Fragment_Hate();
-                transaction.replace(R.id.frame, fragment_hate);
+                Fragment_MyPage fragment_mypage = new Fragment_MyPage();
+                transaction.replace(R.id.frame, fragment_mypage);
                 transaction.commit();
             }
         });

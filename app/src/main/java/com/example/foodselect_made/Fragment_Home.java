@@ -70,7 +70,7 @@ public class Fragment_Home extends Fragment implements View.OnClickListener{
         Fragment fg;
         switch (view.getId()){
             case R.id.btn_random:
-                fg = Fragment_RandomStart.newInstance();
+                fg = Fragment_Random_1.newInstance();
                 setChildFragment(fg);
                 break;
             case R.id.btn_list:
