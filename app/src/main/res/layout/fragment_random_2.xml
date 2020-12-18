@@ -19,14 +19,16 @@
             android:gravity="center"
             android:layout_marginBottom="15dp"/>
 
-        <Button
+        <CheckBox
+            android:id="@+id/cb_random_rice"
             android:layout_width="230dp"
             android:layout_height="55dp"
             android:background="#FFFFFF"
             android:text="밥"
             android:textSize="28sp"
             android:textColor="#000"/>
-        <Button
+        <CheckBox
+            android:id="@+id/cb_random_noodle"
             android:layout_width="230dp"
             android:layout_height="55dp"
             android:background="#FFFFFF"
@@ -34,7 +36,8 @@
             android:textSize="28sp"
             android:textColor="#000"
             android:layout_marginTop="10dp"/>
-        <Button
+        <CheckBox
+            android:id="@+id/cb_random_snack"
             android:layout_width="230dp"
             android:layout_height="55dp"
             android:background="#FFFFFF"
@@ -42,7 +45,8 @@
             android:textSize="28sp"
             android:textColor="#000"
             android:layout_marginTop="10dp"/>
-        <Button
+        <CheckBox
+            android:id="@+id/cb_random_meat"
             android:layout_width="230dp"
             android:layout_height="55dp"
             android:background="#FFFFFF"
@@ -50,7 +54,8 @@
             android:textSize="28sp"
             android:textColor="#000"
             android:layout_marginTop="10dp"/>
-        <Button
+        <CheckBox
+            android:id="@+id/cb_random_seafood"
             android:layout_width="230dp"
             android:layout_height="55dp"
             android:background="#FFFFFF"
@@ -58,15 +63,17 @@
             android:textSize="28sp"
             android:textColor="#000"
             android:layout_marginTop="10dp"/>
-        <Button
+        <CheckBox
+            android:id="@+id/cb_random_soup"
             android:layout_width="230dp"
             android:layout_height="55dp"
-            android:background="#FFFFFF"
+            android:background="#FFF"
             android:text="국물"
             android:textSize="28sp"
             android:textColor="#000"
             android:layout_marginTop="10dp"/>
-        <Button
+        <CheckBox
+            android:id="@+id/cb_random_fastfood"
             android:layout_width="230dp"
             android:layout_height="55dp"
             android:background="#FFFFFF"

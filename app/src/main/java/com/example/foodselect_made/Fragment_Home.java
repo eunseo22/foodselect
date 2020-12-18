@@ -19,12 +19,10 @@ public class Fragment_Home extends Fragment implements View.OnClickListener{
         return new Fragment_Home();
     }
     Fragment_RandomStart fragment_random_start;
-    Fragment_RandomSingle fragment_randomsingle;
     Fragment_RandomMore_1 fragment_randommore_1;
     Fragment_RandomMore_2 fragment_randommore_2;
     Fragment_Random_1 fragment_random_1;
     Fragment_Random_2 fragment_random_2;
-    Fragment_SingleLevel fragment_singleLevel;
     Fragment_Recommend fragment_recommend;
     Fragment_Map fragment_map;
     Fragment_QR_1 fragment_qr_1;
@@ -36,13 +34,11 @@ public class Fragment_Home extends Fragment implements View.OnClickListener{
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
 
-        fragment_randomsingle = new Fragment_RandomSingle();
         fragment_random_start = new Fragment_RandomStart();
         fragment_randommore_1 = new Fragment_RandomMore_1();
         fragment_randommore_2 = new Fragment_RandomMore_2();
         fragment_random_1 = new Fragment_Random_1();
         fragment_random_2 = new Fragment_Random_2();
-        fragment_singleLevel = new Fragment_SingleLevel();
         fragment_recommend = new Fragment_Recommend();
         fragment_map = new Fragment_Map();
         fragment_qr_1 = new Fragment_QR_1();
@@ -100,8 +96,8 @@ public class Fragment_Home extends Fragment implements View.OnClickListener{
     public void onFragmentChange(int index){
         if(index == 0)
             getChildFragmentManager().beginTransaction().replace(R.id.frame_home, fragment_random_start).commit();
-        else if(index == 1)
-            getChildFragmentManager().beginTransaction().replace(R.id.frame_home, fragment_randomsingle).commit();
+
+
         else if(index == 2)
             getChildFragmentManager().beginTransaction().replace(R.id.frame_home, fragment_randommore_1).commit();
         else if(index == 3)
@@ -110,8 +106,8 @@ public class Fragment_Home extends Fragment implements View.OnClickListener{
             getChildFragmentManager().beginTransaction().replace(R.id.frame_home, fragment_random_1).commit();
         else if(index == 5)
             getChildFragmentManager().beginTransaction().replace(R.id.frame_home, fragment_random_2).commit();
-        else if(index == 6)
-            getChildFragmentManager().beginTransaction().replace(R.id.frame_home, fragment_singleLevel).commit();
+
+
         else if(index == 7)
             getChildFragmentManager().beginTransaction().replace(R.id.frame_home, fragment_recommend).commit();
         else if(index == 8)

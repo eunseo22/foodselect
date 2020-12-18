@@ -43,7 +43,7 @@ public class Fragment_RandomStart extends Fragment {
         btn_single.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                fragment_home.onFragmentChange(1);
+                fragment_home.onFragmentChange(4);
             }
         });
 

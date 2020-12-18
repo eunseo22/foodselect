@@ -54,6 +54,14 @@ public class Fragment_QR_2_Room extends Fragment {
                 fragment_home.onFragmentChange(10);
             }
         });
+
+        Button btn_qr_3 = fv.findViewById(R.id.btn_qr_3);
+        btn_qr_3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                fragment_home.onFragmentChange(13);
+            }
+        });
         return fv;
     }
 }
