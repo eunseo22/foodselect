@@ -41,7 +41,7 @@ public class Fragment_QR_1 extends Fragment {
         btn_qr_2_make.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                fragment_home.onFragmentChange(10);
+                fragment_home.onFragmentChange(12);
             }
         });
         Button btn_qr_2_find = fv.findViewById(R.id.btn_qr_2_find);

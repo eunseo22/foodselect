@@ -17,12 +17,12 @@ import com.google.zxing.common.BitMatrix;
 import com.journeyapps.barcodescanner.BarcodeEncoder;
 
 
-public class Fragment_QR_2_Make extends Fragment {
+public class Fragment_QR_2_Room extends Fragment {
 
     private ImageView iv;
     private String text;
-    public static Fragment_QR_2_Make newInstance(){
-        return new Fragment_QR_2_Make();
+    public static Fragment_QR_2_Room newInstance(){
+        return new Fragment_QR_2_Room();
     }
     Fragment_Home fragment_home;
 
@@ -45,26 +45,15 @@ public class Fragment_QR_2_Make extends Fragment {
 
     @Override
     public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
-        View fv = inflater.inflate(R.layout.fragment_qr_2_make, container, false);
+        View fv = inflater.inflate(R.layout.fragment_qr_2_room, container, false);
 
-        Button btn_qr_room = fv.findViewById(R.id.btn_qr_room);
+        Button btn_qr_room = fv.findViewById(R.id.btn_qrcode);
         btn_qr_room.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                fragment_home.onFragmentChange(12);
+                fragment_home.onFragmentChange(10);
             }
         });
-
-        iv = (ImageView)fv.findViewById(R.id.qrcode);
-        text = "방 만들기";
-
-        MultiFormatWriter multiFormatWriter = new MultiFormatWriter();
-        try {
-            BitMatrix bitMatrix = multiFormatWriter.encode(text, BarcodeFormat.QR_CODE, 200, 200);
-            BarcodeEncoder barcodeEncoder = new BarcodeEncoder();
-            Bitmap bitmap = barcodeEncoder.createBitmap(bitMatrix);
-            iv.setImageBitmap(bitmap);
-        }catch (Exception e){}
         return fv;
     }
 }

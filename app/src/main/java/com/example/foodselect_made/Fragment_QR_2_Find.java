@@ -8,6 +8,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -48,6 +49,14 @@ public class Fragment_QR_2_Find extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
         View fv = inflater.inflate(R.layout.fragment_qr_2_find, container, false);
+
+        Button btn_qr_room = fv.findViewById(R.id.btn_go_qr1);
+        btn_qr_room.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                fragment_home.onFragmentChange(9);
+            }
+        });
 
         IntentIntegrator.forSupportFragment(this).initiateScan();
         return fv;
