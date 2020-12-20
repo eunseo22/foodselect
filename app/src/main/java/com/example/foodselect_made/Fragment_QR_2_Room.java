@@ -19,8 +19,6 @@ import com.journeyapps.barcodescanner.BarcodeEncoder;
 
 public class Fragment_QR_2_Room extends Fragment {
 
-    private ImageView iv;
-    private String text;
     public static Fragment_QR_2_Room newInstance(){
         return new Fragment_QR_2_Room();
     }
@@ -47,8 +45,8 @@ public class Fragment_QR_2_Room extends Fragment {
     public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
         View fv = inflater.inflate(R.layout.fragment_qr_2_room, container, false);
 
-        Button btn_qr_room = fv.findViewById(R.id.btn_qrcode);
-        btn_qr_room.setOnClickListener(new View.OnClickListener() {
+        Button btn_qrcode = fv.findViewById(R.id.btn_qrcode);
+        btn_qrcode.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 fragment_home.onFragmentChange(10);

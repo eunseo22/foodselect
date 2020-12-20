@@ -50,7 +50,7 @@ public class Fragment_List extends Fragment {
             @Override
             public void onClick(View v) {
                 if(cb_list_rice.isChecked() == true){
-                    
+
                 }
             }
         });

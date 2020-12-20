@@ -25,7 +25,8 @@
             android:background="#00000000"
             android:text="밥"
             android:textSize="20sp"
-            android:textColor="#000"/>
+            android:textColor="#000"
+            android:buttonTint="#000"/>
         <CheckBox
             android:id="@+id/cb_list_noodle"
             android:layout_width="55dp"
@@ -33,7 +34,8 @@
             android:background="#00000000"
             android:text="면"
             android:textSize="20sp"
-            android:textColor="#000"/>
+            android:textColor="#000"
+            android:buttonTint="#000"/>
         <CheckBox
             android:id="@+id/cb_list_snack"
             android:layout_width="70dp"
@@ -41,7 +43,8 @@
             android:background="#00000000"
             android:text="분식"
             android:textSize="20sp"
-            android:textColor="#000"/>
+            android:textColor="#000"
+            android:buttonTint="#000"/>
         <CheckBox
             android:id="@+id/cb_list_meat"
             android:layout_width="70dp"
@@ -49,7 +52,8 @@
             android:background="#00000000"
             android:text="고기"
             android:textSize="20sp"
-            android:textColor="#000"/>
+            android:textColor="#000"
+            android:buttonTint="#000"/>
         <CheckBox
             android:id="@+id/cb_list_soup"
             android:layout_width="70dp"
@@ -58,7 +62,8 @@
             android:text="국물"
             android:textSize="20sp"
             android:textColor="#000"
-            android:layout_marginRight="20dp"/>
+            android:layout_marginRight="20dp"
+            android:buttonTint="#000"/>
 
     </LinearLayout>
 
@@ -76,7 +81,8 @@
             android:background="#00000000"
             android:text="해산물"
             android:textSize="20sp"
-            android:textColor="#000"/>
+            android:textColor="#000"
+            android:buttonTint="#000"/>
 
         <CheckBox
             android:id="@+id/cb_list_fastfood"
@@ -85,7 +91,8 @@
             android:background="#00000000"
             android:text="패스트푸드"
             android:textSize="20sp"
-            android:textColor="#000"/>
+            android:textColor="#000"
+            android:buttonTint="#000"/>
         <Button
             android:id="@+id/btn_list_adapt"
             android:layout_width="140dp"

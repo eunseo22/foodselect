@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="rice">
+        <item>김치찌개</item>
+        <item>국밥</item>
+        <item>된장찌개</item>
+        <item>연어덮밥</item>
+        <item>볶음밥</item>
+        <item>비빔밥</item>
+        <item>설렁탕</item>
+        <item>순두부찌개</item>
+        <item>알밥</item>
+    </string-array>
+
+    <string-array name="noodle">
+        <item>골뱅이소면</item>
+        <item>라면</item>
+        <item>라멘</item>
+        <item>물냉면</item>
+        <item>비빔냉면</item>
+        <item>잔치국수</item>
+        <item>짜장면</item>
+        <item>칼국수</item>
+        <item>파스타</item>
+    </string-array>
+
+    <string-array name="snack">
+        <item>떡볶이</item>
+        <item>라볶이</item>
+        <item>라면</item>
+        <item>돈가스</item>
+        <item>김밥</item>
+        <item>볶음밥</item>
+        <item>튀김</item>
+        <item>어묵</item>
+        <item>핫도그</item>
+    </string-array>
+
+    <string-array name="meat">
+        <item>닭고기</item>
+        <item>돈가스</item>
+        <item>돼지고기</item>
+        <item>떡갈비</item>
+        <item>보쌈</item>
+        <item>소고기</item>
+        <item>양고기</item>
+        <item>육회</item>
+        <item>족발</item>
+    </string-array>
+
+    <string-array name="seafood">
+        <item>게장</item>
+        <item>사시미</item>
+        <item>아구찜</item>
+        <item>연어덮밥</item>
+        <item>조개구이</item>
+        <item>쭈꾸미</item>
+        <item>초밥</item>
+        <item>회</item>
+        <item>해물탕</item>
+    </string-array>
+
+    <string-array name="fastfood">
+        <item>샌드위치</item>
+        <item>치킨</item>
+        <item>피자</item>
+        <item>햄버거</item>
+        <item>김밥</item>
+        <item>라면</item>
+        <item>부리또</item>
+        <item>핫도그</item>
+        <item>타코</item>
+    </string-array>
+
+</resources>
